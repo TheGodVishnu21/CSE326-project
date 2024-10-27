@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} !^thegodvishnu21.me$ [NC]
+RewriteRule ^(.*)$ http://www.thegodvishnu21.me/$1 [L,R=301]
